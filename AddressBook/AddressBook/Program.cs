@@ -1,3 +1,6 @@
-﻿using AddressBook;
+﻿using Address_Book;
 
-Contact contact = new Contact();
+AddressBook address = new AddressBook();
+address.AddNewContact();
+Console.WriteLine();
+address.Display();
